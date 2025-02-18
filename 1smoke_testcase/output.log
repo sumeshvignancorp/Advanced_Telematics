@@ -1,0 +1,126 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.8, pytest-8.3.4, pluggy-1.5.0
+rootdir: D:\Projects\Advanced_telematics\1smoke_testcase
+plugins: allure-pytest-2.13.5, cov-6.0.0, excel-1.7.0, html-4.1.1, metadata-3.1.1, repeat-0.9.3, xdist-3.6.1, xlsx-2.0.0
+collected 11 items
+
+1Home/test_deviceinfo.py::test_device_info 
+-------------------------------- live log call --------------------------------
+INFO     WDM:logger.py:11 ====== WebDriver manager ======
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Driver [C:\Users\sumes\.wdm\drivers\chromedriver\win64\133.0.6943.98\chromedriver-win32/chromedriver.exe] found in cache
+Device Info & Status card displayed
+URL of the page: https://login.advancedtelematics.co.uk/
+PASSED
+2Settings/test_1Add_Device.py::test_add_device 
+-------------------------------- live log call --------------------------------
+INFO     WDM:logger.py:11 ====== WebDriver manager ======
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Driver [C:\Users\sumes\.wdm\drivers\chromedriver\win64\133.0.6943.98\chromedriver-win32/chromedriver.exe] found in cache
+URL of the page: https://login.advancedtelematics.co.uk/settings/inventoryDevice
+Device added
+Add/Delete Device Passed and Captured
+PASSED
+2Settings/test_2notification.py::test_add_notifications 
+-------------------------------- live log call --------------------------------
+INFO     WDM:logger.py:11 ====== WebDriver manager ======
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Driver [C:\Users\sumes\.wdm\drivers\chromedriver\win64\133.0.6943.98\chromedriver-win32/chromedriver.exe] found in cache
+Notification added
+Add/Delete Notification Passed and Captured
+URL of the page: https://login.advancedtelematics.co.uk/settings/notifications
+PASSED
+2Settings/test_3geofence.py::test_add_geofence 
+-------------------------------- live log call --------------------------------
+INFO     WDM:logger.py:11 ====== WebDriver manager ======
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Driver [C:\Users\sumes\.wdm\drivers\chromedriver\win64\133.0.6943.98\chromedriver-win32/chromedriver.exe] found in cache
+Add/Delete Geofence Passed and Captured
+URL of the page: https://login.advancedtelematics.co.uk/geofences
+PASSED
+2Settings/test_4drivers.py::test_add_driver 
+-------------------------------- live log call --------------------------------
+INFO     WDM:logger.py:11 ====== WebDriver manager ======
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Driver [C:\Users\sumes\.wdm\drivers\chromedriver\win64\133.0.6943.98\chromedriver-win32/chromedriver.exe] found in cache
+Add/Delete Driver Passed and Captured
+URL of the page: https://login.advancedtelematics.co.uk/settings/drivers
+PASSED
+2Settings/test_5Maintenance.py::test_add_maintenance 
+-------------------------------- live log call --------------------------------
+INFO     WDM:logger.py:11 ====== WebDriver manager ======
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Driver [C:\Users\sumes\.wdm\drivers\chromedriver\win64\133.0.6943.98\chromedriver-win32/chromedriver.exe] found in cache
+Add/Delete Maintenance Passed and Captured
+URL of the page: https://login.advancedtelematics.co.uk/settings/maintenances
+PASSED
+3Reports/test_1route.py::test_route_report 
+-------------------------------- live log call --------------------------------
+INFO     WDM:logger.py:11 ====== WebDriver manager ======
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Driver [C:\Users\sumes\.wdm\drivers\chromedriver\win64\133.0.6943.98\chromedriver-win32/chromedriver.exe] found in cache
+URL of the page: https://login.advancedtelematics.co.uk/reports/route
+Xlsx file downloaded
+Xlsx file sent to Email
+Pdf file sent to Email
+Route_Report Passed and Captured
+URL of the page: https://login.advancedtelematics.co.uk/reports/route
+PASSED
+3Reports/test_2trip.py::test_trip_report 
+-------------------------------- live log call --------------------------------
+INFO     WDM:logger.py:11 ====== WebDriver manager ======
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Driver [C:\Users\sumes\.wdm\drivers\chromedriver\win64\133.0.6943.98\chromedriver-win32/chromedriver.exe] found in cache
+Xlsx file downloaded
+Pdf file downloaded
+Trip_Report Passed and Captured
+URL of the page: https://login.advancedtelematics.co.uk/reports/trip
+PASSED
+3Reports/test_3events.py::test_event_report 
+-------------------------------- live log call --------------------------------
+INFO     WDM:logger.py:11 ====== WebDriver manager ======
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Driver [C:\Users\sumes\.wdm\drivers\chromedriver\win64\133.0.6943.98\chromedriver-win32/chromedriver.exe] found in cache
+Xlsx file downloaded
+Pdf file downloaded
+Xlsx file send to Email
+Pdf file send to Email
+Events_Report Passed and Captured
+URL of the page: https://login.advancedtelematics.co.uk/reports/event
+PASSED
+3Reports/test_3summary.py::test_summary_report 
+-------------------------------- live log call --------------------------------
+INFO     WDM:logger.py:11 ====== WebDriver manager ======
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Driver [C:\Users\sumes\.wdm\drivers\chromedriver\win64\133.0.6943.98\chromedriver-win32/chromedriver.exe] found in cache
+Title of the page: advanced telematics
+URL of the page: https://login.advancedtelematics.co.uk/reports/summary
+Xlsx file downloaded
+Xlsx file sent to Email
+Pdf file sent to Email
+Summary_Report Passed and Captured
+Daily summary show reported generated
+PASSED
+4Resellercompanylogin/test_resellercompany.py::test_summary_report 
+-------------------------------- live log call --------------------------------
+INFO     WDM:logger.py:11 ====== WebDriver manager ======
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Driver [C:\Users\sumes\.wdm\drivers\chromedriver\win64\133.0.6943.98\chromedriver-win32/chromedriver.exe] found in cache
+URL of the page: https://login.advancedtelematics.co.uk/
+Reseller Login Done
+URL of the page: https://login.advancedtelematics.co.uk/settings/companies
+Company Login Done
+PASSED
+
+======================= 11 passed in 687.78s (0:11:27) ========================

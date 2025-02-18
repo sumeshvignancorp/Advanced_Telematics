@@ -1,0 +1,4 @@
+URL of the page: https://login.advancedtelematics.co.uk/
+Reseller Login Done
+URL of the page: https://login.advancedtelematics.co.uk/settings/companies
+Company Login Done

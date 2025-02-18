@@ -1,0 +1,6 @@
+URL of the page: https://login.advancedtelematics.co.uk/reports/route
+Xlsx file downloaded
+Xlsx file sent to Email
+Pdf file sent to Email
+Route_Report Passed and Captured
+URL of the page: https://login.advancedtelematics.co.uk/reports/route

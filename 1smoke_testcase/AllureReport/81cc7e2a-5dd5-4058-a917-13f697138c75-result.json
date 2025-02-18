@@ -1,0 +1,1 @@
+{"name": "test_add_geofence", "status": "passed", "description": "Verify adding a geofence with any area on the map, including a name and other details in the Add Geofence page.", "start": 1739443521326, "stop": 1739443528489, "uuid": "4baff320-712c-4805-870a-0a9283b61e09", "testCaseId": "d369731fe01d75e34cc782f66be912aa", "fullName": "2Settings.test_3geofence#test_add_geofence"}

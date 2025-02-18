@@ -1,0 +1,1 @@
+{"name": "test_add_device", "status": "passed", "description": "Verify the Add Device page by entering the IMEI and other required details.", "start": 1739443811639, "stop": 1739443860166, "uuid": "3f12ba7b-759a-4fa1-94ee-a3ab54f826c5", "testCaseId": "24ebd925c71f3ec37d8d2e777573dcc6", "fullName": "2Settings.test_1Add_Device#test_add_device"}

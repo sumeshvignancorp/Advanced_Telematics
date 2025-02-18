@@ -1,0 +1,6 @@
+Xlsx file downloaded
+Pdf file downloaded
+Xlsx file send to Email
+Pdf file send to Email
+Events_Report Passed and Captured
+URL of the page: https://login.advancedtelematics.co.uk/reports/event

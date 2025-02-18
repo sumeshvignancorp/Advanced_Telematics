@@ -1,0 +1,7 @@
+Title of the page: advanced telematics
+URL of the page: https://login.advancedtelematics.co.uk/reports/summary
+Xlsx file downloaded
+Xlsx file sent to Email
+Pdf file sent to Email
+Summary_Report Passed and Captured
+Daily summary show reported generated

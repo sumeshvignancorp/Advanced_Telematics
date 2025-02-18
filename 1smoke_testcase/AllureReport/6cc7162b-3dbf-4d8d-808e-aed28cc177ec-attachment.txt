@@ -1,0 +1,4 @@
+Xlsx file downloaded
+Pdf file downloaded
+Trip_Report Passed and Captured
+URL of the page: https://login.advancedtelematics.co.uk/reports/trip
