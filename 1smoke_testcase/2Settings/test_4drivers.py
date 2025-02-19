@@ -23,7 +23,7 @@ def test_add_driver():
     time.sleep(10)
 
     # Driver = 1
-    driver.find_element("xpath", "(//div[@role='button'])[8]").click()
+    driver.find_element("xpath", "(//div[@role='button'])[7]").click()
     time.sleep(2)
     driver.find_element("xpath", "//span[text()='Drivers']").click()
     time.sleep(2)

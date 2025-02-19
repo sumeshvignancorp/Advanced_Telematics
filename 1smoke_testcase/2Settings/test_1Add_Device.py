@@ -15,12 +15,12 @@ def test_add_device():
     chrome_options.debugger_address = "localhost:9222"
     service = Service(ChromeDriverManager().install())
     driver = webdriver.Chrome(service=service, options=chrome_options)
-    driver.implicitly_wait(10)
+    driver.implicitly_wait(20)
     driver.maximize_window()
     driver.get("https://login.advancedtelematics.co.uk/")
     time.sleep(10)
     driver.find_element("xpath", "(//button[@type='button'])[7]").click()
-    time.sleep(3)
+    time.sleep(6)
     # Device_details
     driver.find_element(By.XPATH, "(//input[@aria-invalid='false'])[1]").click()
     time.sleep(2)
@@ -44,8 +44,8 @@ def test_add_device():
     # Vehicle details
     driver.find_element("xpath", "(//input[@type='text'])[9]").send_keys("23455")
     driver.find_element("xpath", "(//input[@type='text'])[10]").send_keys("KA01 AB 1234")
-    time.sleep(1)
-    driver.find_element("xpath", "(//div[@role='combobox'])[4]").click()
+    time.sleep(2)
+    driver.find_element("xpath", "(//div[@role='combobox'])[3]").click()
     driver.find_element("xpath", "(//li[@role='option'])[1]").click()
     driver.find_element("xpath", "(//input[@type='number'])[1]").send_keys("104")
     driver.find_element("xpath", "(//input[@type='number'])[2]").send_keys("40")
@@ -63,10 +63,10 @@ def test_add_device():
 
     # delete device
     driver.find_element("xpath", "//input[@placeholder='Search Devices']").send_keys("Testing zz")
+    time.sleep(10)
+    driver.find_element(By.XPATH, "(//div[@tabindex='0'])[10]").click()
     time.sleep(3)
-    driver.find_element(By.XPATH, "(//div[@tabindex='0'])[11]").click()
-    time.sleep(3)
-    driver.find_element(By.XPATH, "(//div[@role='button'])[12]").click()
+    driver.find_element(By.XPATH, "(//div[@role='button'])[11]").click()
     time.sleep(1)
     driver.find_element("xpath", "(//button[@type='button'])[8]").click()
     time.sleep(2)

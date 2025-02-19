@@ -35,7 +35,7 @@ def test_summary_report():
     driver.find_element("xpath", "(//input[@role='combobox'])").send_keys(Keys.ENTER)
     time.sleep(1)
     driver.find_element(By.XPATH, "//span[text()='Show']").click()
-    time.sleep(8)
+    time.sleep(6)
     print("URL of the page:", driver.current_url)
     # Export
     driver.find_element(By.XPATH, "//button[text()='Export']").click()

@@ -18,7 +18,7 @@ def test_device_info():
     driver.implicitly_wait(10)
     driver.maximize_window()
     driver.get("https://login.advancedtelematics.co.uk")
-    time.sleep(10)
+    time.sleep(15)
     driver.get_screenshot_as_png()
     driver.find_element(By.XPATH, "//span[text()='Stopped']").click()  # Running [2] & Stopped [3]
     time.sleep(2)

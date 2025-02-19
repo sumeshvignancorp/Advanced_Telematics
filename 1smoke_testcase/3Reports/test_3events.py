@@ -36,7 +36,7 @@ def test_event_report():
     actions = ActionChains(driver)
     demo1 = driver.find_element(By.XPATH, "(//button[@type='button'])[7]")
     actions.click(demo1).perform()
-    time.sleep(8)
+    time.sleep(6)
     # Export
     actions = ActionChains(driver)
     demo = driver.find_element(By.XPATH, "(//button[@type='button'])[8]")

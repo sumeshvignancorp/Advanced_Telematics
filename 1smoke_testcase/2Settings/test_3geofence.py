@@ -22,7 +22,7 @@ def test_add_geofence():
     time.sleep(6)
 
     # Geofence = 1
-    driver.find_element("xpath", "(//div[@role='button'])[8]").click()
+    driver.find_element("xpath", "(//div[@role='button'])[7]").click()
     time.sleep(4)
     driver.find_element("xpath", "//span[text()='Geofences']").click()
     time.sleep(5)
@@ -43,9 +43,9 @@ def test_add_geofence():
 
     # delete
     time.sleep(3)
-    driver.find_element("xpath", "(//div[@role='button'])[12]").click()
+    driver.find_element("xpath", "(//div[@role='button'])[11]").click()
     time.sleep(4)
-    driver.find_element("xpath", "(//button[@type='button'])[17]").click()
+    driver.find_element("xpath", "(//button[@type='button'])[18]").click()
     driver.find_element("xpath", "//button[text()='Yes']").click()
     time.sleep(1)
     driver.get_screenshot_as_file("../Results&Status/11Delete Geofence.png")

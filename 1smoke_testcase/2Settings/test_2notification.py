@@ -22,7 +22,7 @@ def test_add_notifications():
     time.sleep(10)
 
     # Notification = 3
-    driver.find_element("xpath", "(//div[@role='button'])[8]").click()
+    driver.find_element("xpath", "(//div[@role='button'])[7]").click()
     time.sleep(3)
     driver.find_element("xpath", "(//button[@type='button'])[22]").click()
     time.sleep(2)
