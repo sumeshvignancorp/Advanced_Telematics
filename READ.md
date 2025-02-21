@@ -13,25 +13,22 @@ Here are the steps to download and run the script :
 
 5. Add Required Packages :
    - Go to Main Menu -> Settings -> Project: Advanced_telematics -> Python Interpreter.
-   - Click on the "Plus" icon and search for the following packages: PIP, Selenium, webdriver-manager, Pytest, Pytest-html -  Install them.
+   - Click on the "Plus" icon and search for the following packages: PIP, Selenium, webdriver-manager, Pytest, Pytest-html, allure-pytest -  Install them.
 
 6. Run project in Existing browser :
-   - https://developer.chrome.com/docs/chromedriver/  - Click 0n "the Chrome for Testing availability dashboard" - Download chrome driver of window 64
-   - Download ChromeDriver.exe and Create a new folder in D-Drive as "Pytest"
-   - Find path of our Chrome browser path in C-Drive as C:\Users\sumes\AppData\Local\Google\Chrome\User Data\Profile 1
-   - Copy the Profile 1 folder & Paste it in Created folder "pytest"
    - Go to Chrome Application path in C drive - C:\Program Files\Google\Chrome\Application
+   - Create a new folder in D-Drive or any as "Pytest"
+   - Find path of our Chrome browser profile path in C-Drive or Enter this in Chrome browser "chrome://version/" - (You will get chrome profile path)
+   - as C:\Users\sumes\AppData\Local\Google\Chrome\User Data\Profile 1
+   - Copy the Profile 1 folder or default file path & Paste it in Created folder "pytest"
+  Note -> chrome://version/ by entering this into Chrome you will get Chrome profile path and version
 
-7. Open Command prompt :
+7. Open Command prompt to start the Chrome browser in Existing profile :
    - Step 1 > cd C:\Program Files\Google\Chrome\Application
    - Step > chrome.exe --remote-debugging-port=9222 --user-data-dir="D:\pytest\Profile 2"
-         Note - After opening browser login with Advanced telematics credentials & Don't close opened browser.
+   Note - After opening browser login with Advanced telematics credentials & Don't close opened browser.
 
-8. Add the Chromedriver.exe path in all scripts :
-   - Add path of the Chromedriver.exe file 
-   - As like this chrome_driver_path = "D:\\pytest\\chromedriver.exe"
-
-9. Run the Tests :
+8. Run the Tests :
    To run the tests, use any of the following methods:
    - Right-click on the "1smoke_testcase" directory and select Run. 
    - Alternatively, right-click on the Smoke_testcase package, open Terminal, and type any of the following commands:  
@@ -39,16 +36,19 @@ Here are the steps to download and run the script :
      - "pytest"
      - "pytest -v"
 
-10. Generate a HTML Report :
-    To generate a test report, right-click on the Smoke_testcase directory, open Terminal, and type:  
-    "pytest --html=report.html".  
-    After the execution, a file named "report.html" will appear in the project directory.
+9. Generate an HTML Report :
+   To generate a test report, right-click on the Smoke_testcase directory, open Terminal, and type:  
+   "pytest --html=report.html".  
+   After the execution, a file named "report.html" will appear in the project directory.
 
-11. Generate an Allure report()
-    To generate allure report >> pytest --alluredir=allure-results
-    After running the above commands wait till execution completion and Run this command to view report >> allure serve allure-results
+10. Generate an Allure report()
+    Step 1 - Enter this in Terminal - pip install allure-pytest
+    Step 2 - Download Zip file of Allure-2.32.2.zip - https://github.com/allure-framework/allure2/releases/tag/2.32.2
+    Step 3 - To Environment variables - System variables - In Path set your extracted files path till bin
+    In Terminal > To generate allure report >> pytest --alluredir=allure-results
+    After running the above commands wait till execution completion and Run this command to view report >> allure serve allure-results - It will generate allure report
 
-12. Run Device Script :
+11. Run Device Script :
     Before running the 1smoke_testcase, execute the Device1.py script to generate the necessary reports.
 
 Note -
