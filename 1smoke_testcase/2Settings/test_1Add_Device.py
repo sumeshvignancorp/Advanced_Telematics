@@ -63,7 +63,7 @@ def test_add_device():
 
     # delete device
     driver.find_element("xpath", "//input[@placeholder='Search Devices']").send_keys("Testing zz")
-    time.sleep(10)
+    time.sleep(12)
     driver.find_element(By.XPATH, "(//div[@tabindex='0'])[10]").click()
     time.sleep(3)
     driver.find_element(By.XPATH, "(//div[@role='button'])[11]").click()

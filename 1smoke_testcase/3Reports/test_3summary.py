@@ -29,7 +29,7 @@ def test_summary_report():
     driver.find_element("xpath", "//li[text()='Today']").click()
     driver.find_element("xpath", "(//input[@role='combobox'])").click()
     time.sleep(3)
-    driver.find_element("xpath", "(//input[@role='combobox'])").send_keys("evd")
+    driver.find_element("xpath", "(//input[@role='combobox'])").send_keys("ALL Devices")
     time.sleep(2)
     driver.find_element("xpath", "(//input[@role='combobox'])").send_keys(Keys.ARROW_DOWN)
     driver.find_element("xpath", "(//input[@role='combobox'])").send_keys(Keys.ENTER)
