@@ -9,7 +9,7 @@ Here are the steps to download and run the script :
    Install PyCharm Community Edition by selecting the default settings during the installation process.
 
 4. Open the Project :
-   Open the "Advanced_telematics" project in PyCharm. At the bottom of the window, ensure the Python interpreter is set to Python. If not, click on "Python 3.12" or add a new interpreter.
+   Open the "Advanced_telematics" project in PyCharm. At the bottom of the window, ensure the Python interpreter is set to Python. If not, click on "Python 3.12" or add a new interpreter.(You can see this at bottom right side as Python 3.12 click on it & set)
 
 5. Add Required Packages :
    - Go to Main Menu -> Settings -> Project: Advanced_telematics -> Python Interpreter.
@@ -19,7 +19,7 @@ Here are the steps to download and run the script :
    - Go to Chrome Application path in C drive - C:\Program Files\Google\Chrome\Application
    - Create a new folder in D-Drive or any as "Pytest"
    - Find path of our Chrome browser profile path in C-Drive or Enter this in Chrome browser "chrome://version/" - (You will get chrome profile path)
-   - as C:\Users\sumes\AppData\Local\Google\Chrome\User Data\Profile 1
+   - as C:\Users\sumes\AppData\Local\Google\Chrome\User Data\Profile 1 - This path is from system
    - Copy the Profile 1 folder or default file path & Paste it in Created folder "pytest"
   Note -> chrome://version/ by entering this into Chrome you will get Chrome profile path and version
 
@@ -31,13 +31,13 @@ Here are the steps to download and run the script :
 8. Run the Tests :
    To run the tests, use any of the following methods:
    - Right-click on the "1smoke_testcase" directory and select Run. 
-   - Alternatively, right-click on the Smoke_testcase package, open Terminal, and type any of the following commands:  
+   - Alternatively, right-click on the "1Smoke_testcase" package, open Terminal, and type any of the following commands:  
      - "pytest -v -s"
      - "pytest"
      - "pytest -v"
 
 9. Generate an HTML Report :
-   To generate a test report, right-click on the Smoke_testcase directory, open Terminal, and type:  
+   To generate a test report, right-click on the 1smoke_testcase directory, open Terminal, and type:  
    "pytest --html=report.html".  
    After the execution, a file named "report.html" will appear in the project directory.
 
